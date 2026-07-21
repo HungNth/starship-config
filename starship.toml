@@ -1,5 +1,8 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
+# Increase filesystem scan timeout (default is 30ms)
+scan_timeout = 120
+
 format = """
 [](red)\
 $os\
